@@ -1,5 +1,16 @@
 ## Project – Continuous Optimization (INFO-F524)
 
+This project focuses on the implementation and comparison of continuous optimization algo-
+rithms applied to regression problems over datasets. In particular, we study regularized regres-
+sion models using the Mean Squared Error (MSE) loss combined with different regularization
+terms: l1-norm (Lasso), l2-norm (Ridge), and the combined l1-l2-norm (Elastic Net).
+We implement four iterative optimization algorithms specifically designed to handle such com-
+posite objective functions: the Gradient Descent Method, the Proximal Gradient Method, the
+Iterative Shrinkage-Thresholding Algorithm (ISTA) and its accelerated variant, FISTA. This
+report presents the mathematical background and algorithmic details underlying those methods.
+Finally, we evaluate and compare their performance on a dataset using different regularization
+schemes, highlighting their convergence behavior and effectiveness.
+
 **Authors:**  
 Lyan Aljendi (492045)  
 Elliot Silberwasser (518397)
